@@ -6,7 +6,7 @@ end
 
 class DogFood
     def is_liked?(food)
-        ["meet", "vegetable", "fruit"].member?(food)
+        ["meat", "vegetable", "fruit"].member?(food)
     end
 end
 

@@ -13,13 +13,3 @@ class Dog < Animal
 end
 
 
-dog = Dog.new('black', 'puppy', 'spider')
-
-puts dog.speak
-puts dog.name
-puts dog.legs
-dog.remove_leg
-dog.remove_leg
-puts dog.legs
-
-puts dog.likes_food?('fruit')
