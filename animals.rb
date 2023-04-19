@@ -1,7 +1,7 @@
 require_relative 'remover'
 require_relative 'foods'
 class Animal
-  attr_accessor :name, :legs
+  attr_accessor :name, :legs, :owner
   def initialize(name = 'unknown', type, no_of_legs)
 
     @id = Random.rand(1..1000)
