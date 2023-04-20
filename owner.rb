@@ -9,5 +9,6 @@ class Owner
 
     def add_animal(animal)
         @animals << animal
+        animal.owner = self
     end
 end
